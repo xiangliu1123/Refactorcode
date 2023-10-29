@@ -1,11 +1,11 @@
 import sys
-sys.path.append('C:\\Users\\17846\\PycharmProjects\\Refactorcode\\refactor\\refactor')
-from src import *
+
+from refactor.src import *
 # **Task 1 (5 points)**: Using the constructor from the **DoublyLinkedList**, create a new doubly linked list of random integers between 1 and 10.
 
 # In[3]:
 
-def test_Dou():
+def test_DoublyLinkedList():
     dL = DoublyLinkedList()
 
     for i in range(4):

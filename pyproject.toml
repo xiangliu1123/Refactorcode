@@ -6,9 +6,14 @@ authors = ["xiangliu1123 <117769320+xiangliu1123@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pytest = "^7.4.3"
+black = "^23.10.1"
+flake8 = "^6.1.0"
 
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.3.2"
 
 [build-system]
 requires = ["poetry-core"]

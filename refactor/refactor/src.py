@@ -60,8 +60,8 @@ class DoublyLinkedList(object):
 
     def __init__(self):
         self.__size = 0
-        self.__header = Node('Header')
-        self.__trailer = Node('Trailer')
+        self.__header = Node("Header")
+        self.__trailer = Node("Trailer")
         self.__header.set_next(self.__trailer)
         self.__trailer.set_previous(self.__header)
         self.__current = None
@@ -162,4 +162,3 @@ class DoublyLinkedList(object):
         node.set_next(None)
         node.set_previous(None)
         self.__size -= 1
-
